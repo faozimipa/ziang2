@@ -10,6 +10,7 @@ import { AboutComponent} from './about/about.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { HeaderComponent } from './common/header.component';
 import { FooterComponent } from './common/footer.component';
+import { PortfolioComponent } from './portfolio/portfolio.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { FooterComponent } from './common/footer.component';
     AboutComponent,
     PageNotFoundComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    PortfolioComponent
   ],
   imports: [
     BrowserModule,
@@ -30,7 +32,21 @@ import { FooterComponent } from './common/footer.component';
         path: 'about',
         component: AboutComponent,
         data: {
-          title: 'Heroes List'
+          title: 'the Author'
+        }
+      },
+      {
+        path:'portfolio',
+        component:PortfolioComponent,
+        data:{
+          title:'Port Folio'
+        }
+      },
+      {
+        path:'home',
+        component:HomeComponent,
+        data:{
+          title:'Home'
         }
       },
       { path: '', component: HomeComponent },
