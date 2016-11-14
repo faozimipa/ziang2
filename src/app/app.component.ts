@@ -1,13 +1,14 @@
 import { Component } from '@angular/core';
-import {Header} from './common/header';
-//import { header } from './common/header';
+import { HeaderComponent } from './common/header.component';
 
 @Component({
   selector: 'app-root',
-  templateUrl: `<header></header>
-<router-outlet></router-outlet>
- `,
-  styleUrls: ['./app.component.css']
+  template: `<app-header></app-header>
+      <div class="container">
+        <router-outlet></router-outlet>
+      <app-footer></app-footer>
+      </div>  
+       `,
 })
 export class AppComponent {
   title = 'app works bro!';

@@ -5,10 +5,11 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
-import { Header } from './common/header';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent} from './about/about.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { HeaderComponent } from './common/header.component';
+import { FooterComponent } from './common/footer.component';
 
 
 @NgModule({
@@ -16,7 +17,9 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     AppComponent,
     HomeComponent,
     AboutComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
