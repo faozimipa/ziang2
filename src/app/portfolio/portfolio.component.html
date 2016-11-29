@@ -1,9 +1,54 @@
-<div class="row">
-  <div class="col-md-5">
-    portfolio list
-  </div>
-
-  <div class="col-md-7">
-    portfolio detail
-  </div>
+<div class='panel panel-primary'>
+    <div class='panel-heading'>
+        Judule ning kene gye
+    </div>
+    <div class='panel-body'>
+        <div class='row'>
+            <div class='col-md-2'>Filter by:</div>
+            <div class='col-md-4'>
+                <input type='text' class='form-control' >
+            </div>
+        </div>
+        <div class='row'>
+            <div class='col-md-6'>
+                <h3>Filtered by: </h3>
+            </div>
+        </div>
+        <div class='table-responsive'>
+            <table class='table'
+                   *ngIf='portfolios && portfolios.length'>
+                <thead>
+                    <tr>
+                        <th>
+                            <button class='btn btn-primary'>Image
+                            </button>
+                        </th>
+                        <th>Product</th>
+                        <th>Available</th>
+                        <th>Price</th>
+                        <th>5 Star Rating</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor='let portfolio of portfolios '>
+                        <td>
+                            <img 
+                                [src]='portfolio.image'
+                                [title]='portfolio.name'
+                                [style.width.px]='imageWidth'
+                                [style.margin.px]='imageMargin'>
+                        </td>
+                        <td><a [routerLink]="['/portfolio', portfolio.id]">
+                            {{portfolio.name}}
+                        </a></td>
+                        <td>{{ portfolio.release}}</td>
+                        <td>{{ portfolio.price | currency:'USD':true:'1.2-2'}}</td>
+                        <td>
+                           hihi
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
 </div>
