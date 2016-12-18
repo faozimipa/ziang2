@@ -12,7 +12,8 @@ import { FooterComponent } from './common/footer.component';
 
 
 import { AboutModule } from './about/about.module';
-import {PortfolioModule} from './portfolio/portfolio.module'
+import { PortfolioModule } from './portfolio/portfolio.module';
+import { ContactModule } from './contact/contact.module';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import {PortfolioModule} from './portfolio/portfolio.module'
       { path: '**', component: PageNotFoundComponent }
      ]),
      PortfolioModule,
-     AboutModule
+     AboutModule,
+     ContactModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
