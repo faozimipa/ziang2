@@ -8,7 +8,7 @@ import { Title } from '@angular/platform-browser';
 export class HomeComponent implements OnInit {
 
   constructor(title:Title) {
-    title.setTitle('Zi Angular 2 - Home');
+    title.setTitle('Zi Angular 2 oke - Home');
    }
 
   ngOnInit() {
