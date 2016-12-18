@@ -33,3 +33,4 @@ To get more help on the `angular-cli` use `ng --help` or go check out the [Angul
 # ziang2
 Ini sekedar repository untuk elajar git dan angular 2 dengan typescript dan angular cli
 
+ini di versi develop
