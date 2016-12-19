@@ -1,6 +1,6 @@
 {
   "name": "ziang2",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "license": "MIT",
   "angular-cli": {},
   "scripts": {
@@ -46,3 +46,4 @@
     "webdriver-manager": "10.2.5"
   }
 }
+
