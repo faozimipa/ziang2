@@ -1,6 +1,8 @@
 # Ziang2
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.19-3.
+### Note
+Sebenernya sih ini sekedar repository untuk belajar git dan angular 2 dengan typescript dan angular cli aja :D . 
 
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
@@ -30,6 +32,4 @@ Run `ng github-pages:deploy` to deploy to Github Pages.
 
 To get more help on the `angular-cli` use `ng --help` or go check out the [Angular-CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
-# ziang2
-Ini sekedar repository untuk elajar git dan angular 2 dengan typescript dan angular cli
 
