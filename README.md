@@ -1,5 +1,5 @@
 # Ziang2
-
+![](https://i.ytimg.com/vi/iy1AL4OiPmo/maxresdefault.jpg)\
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.19-3.
 ### Note
 Sebenernya sih ini sekedar repository untuk belajar git dan angular 2 dengan typescript dan angular cli aja :D . 
