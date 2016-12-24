@@ -3,6 +3,8 @@ import { NgModule } from '@angular/core';
 import { RouterModule }   from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
+import { FlexLayoutModule } from '@angular/flex-layout';
+import { MaterialModule } from '@angular/material';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
@@ -27,6 +29,8 @@ import { ContactModule } from './contact/contact.module';
     BrowserModule,
     FormsModule,
     HttpModule,
+    FlexLayoutModule,
+    MaterialModule,
      RouterModule.forRoot([
       {
         path:'home',
